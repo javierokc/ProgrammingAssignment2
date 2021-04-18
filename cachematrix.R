@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This module defines two functions and describes a method to cache data structures to avoid redundand computations
+## The first function defines the object that handles data caching and associated get/set functions.
+## the second function uses the above object to check if a cached solution exists before calculating the inverse of the matrix. 
 
 # This function creates an object that defines a structure consisting of a matrix and the following associated functions:
 ## set() sets the data matrix.
